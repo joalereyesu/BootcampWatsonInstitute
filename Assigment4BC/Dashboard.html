@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>HOMEWORK</title>
+        <link rel="stylesheet" href="./static/styles.css">
+    </head>
+    <header>
+        <h1>HOMEWORK</h1>
+    </header>
+    <body>
+        <div class="container">
+            <div class="card">
+                <h1>TO DO</h1>
+                <ul class="list_container">
+                    <li class="todo_list">
+                        <input type="checkbox" id="todo0" name="todo" >
+                        <label for="todo1">Leer Econometria</label>
+                    </li>
+                    <li class="todo_list">
+                        <input type="checkbox" id="todo1" name="todo" >
+                        <label for="todo2">Ver video bootcamp</label>
+                    </li>
+                    <li class="todo_list">
+                        <input type="checkbox" id="todo2" name="todo" >
+                        <label for="todo3">Tarea Ecuas</label>
+                    </li>
+                    <li class="todo_list">
+                        <input type="checkbox" id="todo3" name="todo" >
+                        <label for="todo4">Estudiar Financiera 2</label>
+                    </li>
+                    <li class="todo_list">
+                        <input type="checkbox" id="todo4" name="todo" >
+                        <label for="todo5">Lab Data Science</label>
+                    </li>
+                    <li class="todo_list">
+                        <input type="checkbox" id="todo5" name="todo" >
+                        <label for="todo5">Pseudocodigo</label>
+                    </li>
+                    <li class="todo_list">
+                        <input type="checkbox" id="todo6" name="todo" >
+                        <label for="todo5">Lab Progra</label>
+                    </li>
+                </ul>
+                <div class="center">
+                    <button class="btn" onclick="todo_done()">
+                        Apply
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <h1>DONE</h1>
+                <ul id="doneList" class="list_container"></ul>
+                <div class="center">
+                    <button class="btn" onclick="refresh_done()">
+                        Refresh
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <h1>NEXT WEEK</h1>
+                <ul id="next_week_list" class="list_container"></ul>
+                <div class="center">
+                    <button class="btn" onclick="get_exams()">
+                        Get exams
+                    </button>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="data.js"></script>
+</html>

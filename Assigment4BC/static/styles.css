@@ -1,0 +1,101 @@
+element.style {
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #FFC600;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 15px;
+    background-color: #000;
+}
+
+h1{
+    text-align: center;
+}
+
+ul {
+    padding-top: 10px;
+}
+
+li {
+    padding: 5px;
+}
+
+label {
+    font-size: 18px;
+}
+
+.container {
+    margin-top: 20px;
+    padding: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-flex;
+}
+
+.card {
+    padding-top: 5px;
+    width: 300px;
+    height: 380px;
+    border-radius: 5%;
+    display: inline-block;
+    background-color: #fff;
+    box-shadow: 0 0 40px rgb(207, 148, 37);
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    margin-top: 5px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 25px;
+    font-weight: 500;
+}
+
+.btn:hover {
+    background-color: #FFC600;
+    color: #000;
+}
+
+.list_container {
+    width: 280px;
+    height: 270px;
+    padding: 10px;
+}
+
+.todo_list{
+    list-style: none;
+}
+
+.done_list {
+    font-size: 18px;
+    list-style:circle;
+    list-style-position: inside;
+}
+
+
+
+
