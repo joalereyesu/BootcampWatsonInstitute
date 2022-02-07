@@ -1,0 +1,17 @@
+JOSE ALEJANDRO REYES
+20200201
+
+PRIMERO Se obtienen los coeficientes que se utilizan para maximizar o minimizar la funcion lineal
+SEGUNDO Se forma la funcion objetivo con dichos coeficientes
+TERCER Se obtienen las restricciones deseadas en forma de desigualdades
+CUARTO Se tiene que obtener todos los puntos de intersecion de las restricciones y de la funcion objetivo
+    1. Se hace cero la variable 'y' para obtener el punto en 'x'
+    2. Se hace cero la variable 'x' para obtener el punto en 'y'
+QUINTO Se grafican todos los puntos de interseccion en una grafican
+SEXTO Se buscan los puntos de interseccion entre rectas que se encuentren dentro del area de la recta de la funcion objetivo y se sacan los valores
+SEPTIMO Estos puntos de interseccion se sustituyen en la funcion objetivo
+OCTAVO Se analizan los resulados de la ecuacion y se analizan las respuestas
+    1. Si se quiere maximizar la respuesta es el valor mas alto
+    2. Si se quiere minimizar la respuesta es el valor menor
+
+
